@@ -5,14 +5,19 @@
                 <a href="/" class="text-custom">Main</a>
             </li>
             <li>
-                <a href="/about" class="text-custom">About us</a>
+                <a href="/about" class="text-custom">About me</a>
             </li>
             <li>
-                <a href="/contact" class="text-custom">Contacts</a>
+                <a href="/contacts" class="text-custom">Contacts</a>
+            </li>
+            <li>
+                <a href="/register" class="text-custom">Register</a> <!-- Кнопка регистрации -->
+            </li>
+            <li>
+                <a href="/login" class="text-custom">Login</a> <!-- Кнопка входа -->
             </li>
         </ul>
     </nav>
-
 </template>
 
 <script>

@@ -3,15 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Главная</title>
+    <title>Вход</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <div id="app">
         <navbar></navbar>
         <main class="p-4">
-            <h1 class="text-2xl">Welcome to my blog!</h1>
-            <p>Here you will find interesting articles and news.</p>
+            <login></login>
         </main>
         <footer-component></footer-component>
     </div>

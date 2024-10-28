@@ -1,4 +1,3 @@
-<!-- resources/js/components/Footer.vue -->
 <template>
     <footer class="text-custom p-4 text-center">
         <p>© 2024 My Blog. All rights reserved.</p>
