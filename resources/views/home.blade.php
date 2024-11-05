@@ -13,8 +13,12 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    <p>{{ __('You are logged in!') }}</p>
+                    <p>Добро пожаловать, {{ Auth::user()->name }}!</p>
+                    <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="btn btn-primary">Выйти</button>
+                    </form>
                 </div>
             </div>
         </div>
